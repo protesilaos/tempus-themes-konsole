@@ -8,8 +8,8 @@
 
 The theme files can be located in either of two places:
 
-- At `/usr/share/konsole` which makes them accessible to all users (requires root privileges).
-- Or `~/.local/share/konsole` for use by the current user (directory path needs to be created if it does not already exist).
+- At `/usr/share/konsole/` which makes them accessible to all users (requires root privileges).
+- Or `~/.local/share/konsole/` for use by the current user (directory path needs to be created if it does not already exist).
 
 Choose whatever option suits your needs. The following document will use the latter as a working example.
 
@@ -23,7 +23,7 @@ git clone https://github.com/protesilaos/tempus-themes-konsole.git --depth 1 && 
 
 ### Prepare the destination directory
 
-*This step is not needed if you copy the files to `/usr/share/konsole`.*
+*This step is not needed if you copy the files to `/usr/share/konsole/`.*
 
 Then make sure you have the local directory to store the files. Run the following command, excluding the lines that start with `#` (those are comments):
 
@@ -49,7 +49,7 @@ The theme will then be available from the terminal's profile preferences window 
 You want to test them all out? A simple command to copy everything:
 
 ```sh
-cp *.colorscheme ~/.local/share/konsole
+cp *.colorscheme ~/.local/share/konsole/
 ```
 
 Enjoy!
