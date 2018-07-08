@@ -1,5 +1,7 @@
 # Tempus Themes for Konsole (KDE terminal)
 
+**DEPRECATION NOTICE — [MOVED TO GITLAB](https://gitlab.com/protesilaos/tempus-themes-konsole).**
+
 ## Automatic installation
 
 If you use Arch Linux or derivatives, you can get these themes from the [AUR](https://aur.archlinux.org/packages/tempus-themes-konsole/).
